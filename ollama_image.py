@@ -7,7 +7,7 @@ class Movies(BaseModel):
   actors : list[str]
   ratings : int
 
-path = 'structured_output\image.PNG'
+path = 'image.PNG'
 
 response = chat(
   messages=[
